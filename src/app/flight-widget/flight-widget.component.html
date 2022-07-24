@@ -1,0 +1,22 @@
+<div class="departures">
+    <header>DEPARTURES</header>
+    <table>
+        <thead>
+            <th id="time">TIME</th>
+            <th id="destination">DESTINATION</th>
+            <th id="flight">FLIGHT</th>
+            <th id="gate">GATE</th>
+            <th id="remarks">REMARKS</th>
+        </thead>
+        <tbody id="table-body">
+                <tr *ngFor="let flight of flights">
+                    <td *ngFor="let detail of this.getObj(flight)">   
+                        <ng-template #dynamic>
+                        </ng-template>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+<button (click)="addFlight()" value="add">add</button>

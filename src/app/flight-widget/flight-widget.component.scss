@@ -1,0 +1,48 @@
+
+header {
+    padding: 10px;
+}
+
+.departures {
+    background-color: rgb(6,6,6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.departures table {
+    background-color: rgb(46,46,46);
+    text-align: left;
+}
+
+
+.departures table td {
+    height: 50px;
+}
+
+#time {
+    width: 160px;
+}
+
+#destination {
+    width: 260px;
+}
+
+
+#flight {
+    width: 205px;
+}
+
+#gate {
+    width: 135px;
+}
+
+#remarks {
+    width: 260px;
+}
+
+button {
+    background-color: black;
+    border-radius:10px;
+    margin: 0spx;
+    font-size: 20px;
+}
